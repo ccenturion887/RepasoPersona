@@ -18,10 +18,10 @@ namespace RepasoPersona.Core
         {
             if(monto <= 0)
             {
-                throw new Exception.System("El monto debe ser > a 0");
+                throw new Exception("El monto debe ser > a 0");
             }
             if (Efectivo < monto)
-                throw new Exception.System("Saldo Insuficiente");
+                throw new Exception("Saldo Insuficiente");
             Efectivo -= monto;
         }
     }
