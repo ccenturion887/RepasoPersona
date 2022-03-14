@@ -1,5 +1,4 @@
-.
-.+using RepasoPersona.Core;
+using RepasoPersona.Core;
 using Xunit;
 
 namespace RepasoPersona.Test
